@@ -152,8 +152,8 @@ int calculatePrice(Parcel parcel, boolean fastDelivery);
 
 قطعه کد‌ زیر نحوه بررسی شرایط برای حمل و نقل برون شهری را نشان می‌دهد:
 
-&lt;details class=&quot;brown&quot;&gt;
-&lt;summary&gt; **Java** &lt;/summary&gt;
+<details dir='ltr'><summary>java</summary>
+	
 ```java
 public void checkConditions(Parcel parcel) {
 	Checker dimensionChecker = new DimensionChecker();
@@ -166,10 +166,10 @@ public void checkConditions(Parcel parcel) {
 	dimensionChecker.check(parcel);
 }
 ```
-&lt;/details&gt;
+</details>
 
-&lt;details class=&quot;brown&quot;&gt;
-&lt;summary&gt; **CPP** &lt;/summary&gt;
+<details dir='ltr' open><summary>cpp</summary>
+	
 ```cpp
 void checkConditions(Parcel parcel) {
     Checker* dimensionChecker = new DimensionChecker();
@@ -183,10 +183,10 @@ void checkConditions(Parcel parcel) {
 }
 
 ```
-&lt;/details&gt;
+</details>
 
-&lt;details class=&quot;brown&quot;&gt;
-&lt;summary&gt; **Python** &lt;/summary&gt;
+<details dir='ltr'><summary>python</summary>
+
 ```python
 def check_conditions(self, parcel):
     dimension_checker = DimensionChecker()
@@ -199,7 +199,7 @@ def check_conditions(self, parcel):
     dimension_checker.check(parcel)
 
 ```
-&lt;/details&gt;
+</details>
 
 همان‌طور که مشاهده کردید، در متد `checkConditions` ابتدا کلاس‌های `checker` برای بررسی شرایط مختلف که پیش‌تر ذکر شد، ایجاد شده است. سپس، ترتیب چک شدن شروط تعیین شده و در آخر با فراخوانی متد `check` از `dimensionChecker` تمام شروط به ترتیب بررسی شده و در صورت غیر مجاز بودن هر یک از شروط فرآیند متوقف شده و پیامی در خروجی چاپ می‌شود که مشخص می‌کند کدام شرط غیر مجاز بوده است.
 
