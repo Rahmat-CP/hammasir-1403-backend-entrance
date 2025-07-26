@@ -1,3 +1,5 @@
+package com.delivery.common;
+
 public final class Parcel {
     private final int weight;
     private final int length;

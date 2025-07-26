@@ -1,3 +1,9 @@
+package com.delivery.core.checkers;
+
+import com.delivery.common.Parcel;
+import com.delivery.config.Configuration;
+import com.delivery.core.exceptions.ConditionException;
+
 public class DimensionChecker extends Checker {
     @Override
     public void check(Parcel parcel) throws ConditionException {

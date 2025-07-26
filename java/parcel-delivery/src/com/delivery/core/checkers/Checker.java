@@ -1,3 +1,8 @@
+package com.delivery.core.checkers;
+
+import com.delivery.common.Parcel;
+import com.delivery.core.exceptions.ConditionException;
+
 public abstract class Checker {
     protected Checker nextChecker;
 

@@ -1,3 +1,8 @@
+package com.delivery.core;
+
+import com.delivery.common.Parcel;
+import com.delivery.core.exceptions.ConditionException;
+
 public interface DeliveryService {
     /**
      * @param parcel The parcel to be delivered.

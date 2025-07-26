@@ -1,4 +1,10 @@
+package com.delivery;
 
+import com.delivery.common.Parcel;
+import com.delivery.common.Point;
+import com.delivery.core.IntraCityDeliveryService;
+import com.delivery.core.exceptions.ConditionException;
+import com.delivery.services.BikeDelivery;
 
 public class Main {
     public static void main(String[] args) {

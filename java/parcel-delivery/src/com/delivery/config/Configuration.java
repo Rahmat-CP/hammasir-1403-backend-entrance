@@ -1,3 +1,5 @@
+package com.delivery.config;
+
 public final class Configuration {
 
     private static final Configuration INSTANCE = new Configuration();

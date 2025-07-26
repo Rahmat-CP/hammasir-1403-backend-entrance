@@ -1,3 +1,5 @@
+package com.delivery.common;
+
 public record Point(int x, int y) {
 
     /**

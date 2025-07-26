@@ -1,3 +1,12 @@
+package com.delivery.services;
+
+import com.delivery.common.Parcel;
+import com.delivery.common.Point;
+import com.delivery.config.Configuration;
+import com.delivery.core.IntraCityDeliveryService;
+import com.delivery.core.checkers.*;
+import com.delivery.core.exceptions.ConditionException;
+
 public class BikeDelivery implements IntraCityDeliveryService {
 
     private final Configuration config;
